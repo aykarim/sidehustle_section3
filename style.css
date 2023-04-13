@@ -1,0 +1,72 @@
+/* stlyesheet for section three */
+.section-three{
+    width: 100vw
+    ;
+    height: 100vh;
+}
+
+.section-three img{
+    width: 50%;
+    padding-left: 5%;
+}
+.section-three-display{
+    display: flex;
+}
+.learn-wrapper{
+    width:45% ;
+    padding-right: 6%;
+}
+
+.learn-wrapper h1{
+    width: 55%;
+}
+
+.learn-wrapper li{
+    line-height: 2.075rem;
+}
+
+.last-btn{
+    background: rgb(82, 163, 80);
+    padding: 10px 20px 10px 20px;
+}
+
+.last-btn:hover {
+    background: rgba(82, 163, 80, 0.3)
+}
+.accordion-button{
+    padding: 10px 20px 10px 20px;
+}
+
+
+.accordion {
+    --bs-accordion-active-bg: #eef7ee;
+    outline: none;
+}
+
+/* Responsiveness */
+@media (max-width: 991.98px) { 
+    .section-three-display{
+        display: block;
+        text-align: center;
+    }
+
+    .section-three img{
+        width: 100%;
+    }
+
+    .learn-wrapper {
+        width: 95%;
+        margin: 10px 30px;
+    }
+    .learn-wrapper h1{
+        width: 100%;
+    }
+    .section-three ul li{
+        text-align: left;
+    }
+    .last-btn{
+        width: 95%;
+    }
+
+
+ }
